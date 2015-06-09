@@ -1,0 +1,35 @@
+name = Engineering
+description = A Bootstrap Sub-theme.
+core = 7.x
+base theme = bootstrap
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[global_nav]     = 'Global nav'
+regions[main_nav]     	= 'Main nav'
+regions[mobile_nav]     = 'Mobile nav'
+regions[mobile_search]	= 'Mobile search'
+regions[search]			= 'Search'
+regions[sidebar]		= 'Sidebar'
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+regions[footer]         = 'Footer'
+regions[page_top]       = 'Page top'
+regions[page_bottom]    = 'Page bottom'
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+; style.css is referenced in html.tpl.php because when it's loaded via @import statement in Drupal, respond.js doesn't work so IE8 users only see the mobile layout
+; see this jira issue for more info: https://issues.library.cornell.edu/browse/CULWEBDEVTEAM-431
+; stylesheets[all][] = css/style.css
+
+; ;;;;;;;;;;;;;;;;;;;;;
+; ;; Scripts
+; ;;;;;;;;;;;;;;;;;;;;;
+
+scripts[] = 'js/bootstrap.min.js'

@@ -1,0 +1,175 @@
+.navbar {
+	border-radius: 0;
+	margin-bottom: 0;
+	min-height: 0;
+}
+
+// Mobile search and menu buttons
+// --------------------------------- //
+.navbar-toggle {
+	margin: 0;
+	font-size: 120%;
+}
+
+// Global nav
+// ------------------- //
+.global-menu {
+	@include make-xs-column(8);
+}
+#menu {
+	.nav {
+		li {
+			font-size: 14px;
+			text-transform: uppercase;
+			float: left;
+		}
+		a {
+			color: white;
+			padding: 10px 15px;
+		}
+		a:hover, a:active, a:focus {
+			background: inherit;
+			text-decoration: underline;
+		}
+		.active {
+			a, a:hover, a:active, a:focus {
+				font-weight: 700;
+			}
+		}
+	}
+}
+
+// Main nav
+// ------------------- //
+nav {
+	background: $dark-gray;
+	background: rgba(34, 34, 34, 0.75);
+	.nav {
+		li {
+			float: left;
+			a {
+				color: white;
+				font-size: 16px;
+				padding: 15px 20px;
+			}
+			a:hover,
+			a:active,
+			a:focus {
+				background: rgba(0, 0, 0, 1);
+				color: white;
+			}
+		}
+		.active {
+			a, a:hover, a:active, a:focus {
+				background: rgba(0, 0, 0, 1);
+			}
+		}
+	}
+}
+
+// Mobile nav
+// ------------------- //
+#mobile-nav {
+	background: white;
+	a {
+		color: $dark-gray;
+		font-size: 14px;
+		border-bottom: 1px solid $pale-gray;
+	}
+	.navbar-nav {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+}
+
+// Sidebar nav
+// ------------------- //
+.sidebar {
+	.block-title {
+		margin: 0;
+		padding: 0 0 .5em 0;
+		font-size: 14px;
+		text-transform: uppercase;
+		border-bottom: 2px solid $pale-gray;
+		a {
+			color: $medium-gray;
+			border: none;
+		}
+	}
+	.nav > li {
+		padding: 8px 0;
+		font-size: 14px;
+	}
+	.nav > li > a {
+		padding: 0;
+		border-bottom: 0;
+		display: inline-block; // need this so the link text displays inline with menu icon
+	}
+	.nav > li > a:hover,
+	.nav > li > a:active,
+	.nav > li > a:focus {
+		background: inherit;
+	}
+	.nav {
+		margin-top: 1em;
+		i {
+			margin-right: .4em;
+			color: $lighter-gray;
+		}
+		.active {
+			a, a:hover, a:active, a:focus {
+				color: $dark-gray;
+				font-weight: 700;
+			}
+		}
+	}
+}
+
+
+// MEDIA QUERIES
+// -------------------------
+
+  // /* Extra small devices (phones, up to 480px) */
+  // /* No media query since this is the default in Bootstrap */
+
+  // /* Small devices (tablets, 768px and up) */
+  // @media (min-width: @screen-sm) { ... }
+
+  // /* Medium devices (desktops, 992px and up) */
+  // @media (min-width: @screen-md) { ... }
+
+  // /* Large devices (large desktops, 1200px and up) */
+  // @media (min-width: @screen-lg) { ... }
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm) { 
+	#menu {
+		.nav {
+			float: right;
+		}
+	}
+	nav {
+		.navbar-nav > li > a {
+			font-size: 14px;
+		}
+	}
+	.front {
+		nav {
+			margin-top: 8em;
+		}
+	}
+	
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md) {
+	nav {
+		.navbar-nav > li > a {
+			font-size: 16px;
+		}
+	}
+}
+/* Large devices (desktops, 1200px and up) */
+@media (min-width: $screen-lg) {
+}

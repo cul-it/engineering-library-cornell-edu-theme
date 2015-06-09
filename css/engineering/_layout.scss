@@ -1,0 +1,87 @@
+// Hero
+// -------------- //
+.hero {
+	header{
+		.container {
+			background: url("../img/OlinReflectionApr2015.jpg") no-repeat;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+	}
+}
+
+// Main content
+// -------------- //
+.main-content {
+	background: white;
+	min-height: 500px; // just for template building; delete there is real content
+	padding: 3em 0;
+}
+.main-text {
+	@include make-sm-column(8);
+	@include make-sm-column-push(4);
+}
+
+// Sidebar
+// -------------- //
+.sidebar {
+	@include make-sm-column(4);
+	@include make-md-column(3);
+	@include make-sm-column-pull(8);
+	margin-top: 3em;
+}
+
+// Drupal overrides
+//--------------------//
+
+body.admin-menu { padding-top: 0 !important; }
+
+#admin-menu li { font-size: 9px; }
+
+.block-simplesamlphp-auth {
+	margin: 2em 0 3em 0;
+}
+
+// MEDIA QUERIES
+// -------------------------
+
+  // /* Extra small devices (phones, up to 480px) */
+  // /* No media query since this is the default in Bootstrap */
+
+  // /* Small devices (tablets, 768px and up) */
+  // @media (min-width: @screen-sm) { ... }
+
+  // /* Medium devices (desktops, 992px and up) */
+  // @media (min-width: @screen-md) { ... }
+
+  // /* Large devices (large desktops, 1200px and up) */
+  // @media (min-width: @screen-lg) { ... }
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm) {
+	.hero {
+		background: url("../img/OlinReflectionApr2015.jpg") no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		header {
+			.container {
+			 	background: inherit;
+			}
+		}
+	}
+	.sidebar {
+		margin-top: 0;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md) {
+}
+/* Large devices (desktops, 1200px and up) */
+@media (min-width: $screen-lg) {
+}
