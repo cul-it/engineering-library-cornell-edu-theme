@@ -7697,10 +7697,7 @@ nav {
     float: right; }
 
   nav .navbar-nav > li > a {
-    font-size: 14px; }
-
-  .front nav {
-    margin-top: 8em; } }
+    font-size: 14px; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   nav .navbar-nav > li > a {
