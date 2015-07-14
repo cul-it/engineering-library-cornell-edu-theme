@@ -33,6 +33,12 @@
 	margin-top: 3em;
 }
 
+// Home page
+// -------------- //
+.home-feature {
+	@include make-sm-column(3);
+}
+
 // Drupal overrides
 //--------------------//
 

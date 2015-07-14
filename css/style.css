@@ -7584,6 +7584,16 @@ h5 {
     .sidebar {
       right: 66.66667%; } }
 
+.home-feature {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 768px) {
+    .home-feature {
+      float: left;
+      width: 25%; } }
+
 body.admin-menu {
   padding-top: 0 !important; }
 
