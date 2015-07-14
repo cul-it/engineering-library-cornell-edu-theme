@@ -22,6 +22,7 @@ regions[page_bottom]    = 'Page bottom'
 regions[home_column1]   = 'Home column 1'
 regions[home_column2]   = 'Home column 2'
 regions[home_column3]   = 'Home column 3'
+regions[home_search]   	= 'Home page search box'
 
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Stylesheets
