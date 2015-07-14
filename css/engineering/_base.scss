@@ -47,6 +47,12 @@ h4 {
 h5 {
 	font-size: 16px;
 }
+// Hide home page welcome header
+.front {
+	h1 {
+		display: none;
+	}
+}
 
 // Well overrides
 // ------------------- //
