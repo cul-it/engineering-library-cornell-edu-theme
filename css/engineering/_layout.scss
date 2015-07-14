@@ -37,6 +37,11 @@
 // -------------- //
 .home-feature {
 	@include make-sm-column(4);
+	.block-title {
+		font-family: $font-family-cul;
+		font-size: 14px;
+		text-transform: uppercase;
+	}
 }
 
 // Drupal overrides

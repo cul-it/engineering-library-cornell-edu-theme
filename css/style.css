@@ -7593,6 +7593,10 @@ h5 {
     .home-feature {
       float: left;
       width: 33.33333%; } }
+  .home-feature .block-title {
+    font-family: "Montserrat";
+    font-size: 14px;
+    text-transform: uppercase; }
 
 body.admin-menu {
   padding-top: 0 !important; }
