@@ -192,19 +192,6 @@
       }?>
       <?php print render($page['content']); ?>
     <?php endif; ?>
-    <?php if(drupal_is_front_page()): ?>
-      <div class="row">
-        <div class="home-feature">
-          <?php print render($page['home_column1']); ?>
-        </div>
-        <div class="home-feature">
-          <?php print render($page['home_column2']); ?>
-        </div>
-        <div class="home-feature">
-          <?php print render($page['home_column3']); ?>
-        </div>
-      </div>
-    <?php endif; ?>
 
   </div>
 </div>
