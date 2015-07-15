@@ -39,13 +39,20 @@
 	@include make-sm-column(4);
 	.block-title {
 		font-family: $font-family-cul;
-		font-size: 20px;
+		font-size: 16px;
 		border-bottom: 1px solid $pale-gray;
 		padding-bottom: .25em;
+		color: $cornell-red;
 	}
 	.region {
 		background: white;
-		padding: 0 20px;
+		padding: 20px;
+	}
+	.fa-ul {
+		i {
+			font-size: 12px;
+			color: $light-gray;
+		}
 	}
 }
 .search-bar {
