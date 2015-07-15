@@ -7519,10 +7519,11 @@ h5 {
   text-decoration: none; }
 
 .cul-brand {
-  color: #e4e3e3;
+  color: white;
   font-size: 24px;
   font-family: "Montserrat";
-  display: block; }
+  display: block;
+  margin-bottom: .25em; }
 
 .cul-brand:hover {
   color: #e4e3e3;
@@ -7759,15 +7760,21 @@ nav {
 #mobile-search .btn-search i {
   font-size: 18px; }
 
-.home-search .form-group {
-  position: relative;
-  float: left;
-  width: 66.66667%;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px; }
-.home-search .form-control {
-  width: 100%; }
+.home-search {
+  padding: 3em 3em 5em 3em;
+  border: 0; }
+  .home-search .block-title {
+    color: #b31b1b;
+    font-size: 22px; }
+  .home-search .form-group {
+    position: relative;
+    float: left;
+    width: 66.66667%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+  .home-search .form-control {
+    width: 100%; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {

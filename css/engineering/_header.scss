@@ -37,10 +37,11 @@
 	text-decoration: none;
 }
 .cul-brand {
-	color: $pale-gray;
+	color: white;
 	font-size: 24px;
 	font-family: $font-family-cul;
 	display: block;
+	margin-bottom: .25em;
 }
 .cul-brand:hover {
 	color: $pale-gray;

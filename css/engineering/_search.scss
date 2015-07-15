@@ -44,6 +44,12 @@
 // Home search box
 // ------------------------ //
 .home-search {
+	padding: 3em 3em 5em 3em;
+	border: 0;
+	.block-title {
+		color: $cornell-red;
+		font-size: 22px;
+	}
 	.form-group {
 		@include make-xs-column(8);
 	}
