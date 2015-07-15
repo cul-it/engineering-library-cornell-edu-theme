@@ -7599,6 +7599,10 @@ h5 {
     border-bottom: 1px solid #e4e3e3;
     padding-bottom: .25em; }
 
+.search-bar {
+  background: white;
+  padding: 2em 0; }
+
 body.admin-menu {
   padding-top: 0 !important; }
 
