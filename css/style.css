@@ -7777,6 +7777,10 @@ nav {
     padding-left: 0; }
   .home-search .form-control {
     width: 100%; }
+  .home-search .btn-search {
+    padding: 5px 0; }
+    .home-search .btn-search i {
+      font-size: 32px; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
