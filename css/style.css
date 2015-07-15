@@ -7766,6 +7766,8 @@ nav {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px; }
+.home-search .form-inline .form-control {
+  width: 100%; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {

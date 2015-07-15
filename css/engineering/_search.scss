@@ -47,6 +47,11 @@
 	.form-group {
 		@include make-xs-column(8);
 	}
+	.form-inline {
+		.form-control {
+			width: 100%;
+		}
+	}
 }
 
 // MEDIA QUERIES
