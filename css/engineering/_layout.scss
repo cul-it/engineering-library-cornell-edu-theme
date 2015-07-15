@@ -38,8 +38,8 @@
 .home-feature {
 	@include make-sm-column(4);
 	.block-title {
-		font-size: 28px;
-		font-weight: 300;
+		font-family: $font-family-cul;
+		font-size: 20px;
 		border-bottom: 1px solid $pale-gray;
 		padding-bottom: .25em;
 	}
