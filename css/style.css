@@ -7765,7 +7765,8 @@ nav {
   border: 0; }
   .home-search .block-title {
     color: #b31b1b;
-    font-size: 22px; }
+    font-size: 22px;
+    font-family: "Montserrat"; }
   .home-search .form-group {
     position: relative;
     float: left;

@@ -49,6 +49,7 @@
 	.block-title {
 		color: $cornell-red;
 		font-size: 22px;
+		font-family: $font-family-cul;
 	}
 	.form-group {
 		@include make-xs-column(8);
