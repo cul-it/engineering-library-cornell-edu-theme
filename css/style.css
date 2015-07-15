@@ -7604,6 +7604,9 @@ h5 {
   background: #f5f5f5;
   padding: 0 0 2em 0; }
 
+.front .main-content {
+  background: #eaeaea; }
+
 body.admin-menu {
   padding-top: 0 !important; }
 
@@ -7764,7 +7767,7 @@ nav {
   padding: 3em 0 2em 0;
   border: 0; }
   .home-search .block-title {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     margin-bottom: .5em;
     font-family: "Montserrat"; }
