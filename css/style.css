@@ -7764,9 +7764,10 @@ nav {
   padding: 3em 0 2em 0;
   border: 0; }
   .home-search .block-title {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 300;
-    margin-bottom: .5em; }
+    margin-bottom: .5em;
+    font-family: "Montserrat"; }
   .home-search .form-group {
     position: relative;
     float: left;
