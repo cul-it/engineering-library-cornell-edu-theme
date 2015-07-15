@@ -7761,19 +7761,19 @@ nav {
   font-size: 18px; }
 
 .home-search {
-  padding: 3em 3em 5em 3em;
+  padding: 2em 0;
   border: 0; }
   .home-search .block-title {
     font-size: 22px;
-    font-family: "Montserrat"; }
+    font-weight: 300; }
   .home-search .form-group {
-    padding-left: 0;
     position: relative;
     float: left;
     width: 66.66667%;
     min-height: 1px;
     padding-left: 15px;
-    padding-right: 15px; }
+    padding-right: 15px;
+    padding-left: 0; }
   .home-search .form-control {
     width: 100%; }
 

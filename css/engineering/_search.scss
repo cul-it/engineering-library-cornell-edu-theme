@@ -44,15 +44,15 @@
 // Home search box
 // ------------------------ //
 .home-search {
-	padding: 3em 3em 5em 3em;
+	padding: 2em 0;
 	border: 0;
 	.block-title {
 		font-size: 22px;
-		font-family: $font-family-cul;
+		font-weight: 300;
 	}
 	.form-group {
-		padding-left: 0;
 		@include make-xs-column(8);
+		padding-left: 0;
 	}
 	.form-control {
 		width: 100%;
