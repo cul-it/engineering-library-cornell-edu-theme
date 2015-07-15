@@ -44,11 +44,12 @@
 // Home search box
 // ------------------------ //
 .home-search {
-	padding: 2em 0;
+	padding: 3em 0 2em 0;
 	border: 0;
 	.block-title {
 		font-size: 24px;
 		font-weight: 300;
+		margin-bottom: .5em;
 	}
 	.form-group {
 		@include make-xs-column(8);
