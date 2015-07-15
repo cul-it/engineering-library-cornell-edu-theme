@@ -7520,7 +7520,7 @@ h5 {
 
 .cul-brand {
   color: #e4e3e3;
-  font-size: 18px;
+  font-size: 24px;
   font-family: "Montserrat";
   display: block; }
 
@@ -7758,6 +7758,14 @@ nav {
   margin-bottom: 0; }
 #mobile-search .btn-search i {
   font-size: 18px; }
+
+.home-search {
+  position: relative;
+  float: left;
+  width: 66.66667%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {

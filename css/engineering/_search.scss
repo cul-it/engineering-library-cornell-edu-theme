@@ -41,6 +41,12 @@
 	}
 }
 
+// Home search box
+// ------------------------ //
+.home-search {
+	@include make-xs-column(8);
+}
+
 // MEDIA QUERIES
 // -------------------------
 
