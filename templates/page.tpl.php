@@ -195,10 +195,3 @@
     <?php print render($page['footer']); ?>
   </div>
 </footer>
-
-<script type="text/javascript">
-  jQuery(document).ready(function() { 
-  var randomImages = ['1','2','3','4','5','6']; 
-  var rndNum = Math.floor(Math.random() * randomImages.length); 
-  jQuery(".hero").css({ background: "url('/sites/all/themes/engineering/img/hero/" + randomImages[rndNum] + ".jpg') no-repeat" }); });
-</script>
