@@ -7539,7 +7539,6 @@ h5 {
     font-size: 48px !important; } }
 /* Large devices (desktops, 1200px and up) */
 .hero header .container {
-  background: url("../img/24231236resize.jpg") no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
