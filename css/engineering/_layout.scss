@@ -116,11 +116,26 @@ body.admin-menu { padding-top: 0 !important; }
 	.sidebar {
 		margin-top: 0;
 	}
+	.home-feature {
+		.block-title {
+			font-size: 18px;
+		}
+	}
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: $screen-md) {
+	.home-feature {
+		.block-title {
+			font-size: 24px;
+		}
+	}
 }
 /* Large devices (desktops, 1200px and up) */
 @media (min-width: $screen-lg) {
+	.home-feature {
+		.block-title {
+			font-size: 26px;
+		}
+	}
 }

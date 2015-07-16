@@ -7643,9 +7643,18 @@ body.admin-menu {
     background: inherit; }
 
   .sidebar {
-    margin-top: 0; } }
+    margin-top: 0; }
+
+  .home-feature .block-title {
+    font-size: 18px; } }
 /* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .home-feature .block-title {
+    font-size: 24px; } }
 /* Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .home-feature .block-title {
+    font-size: 26px; } }
 .navbar {
   border-radius: 0;
   margin-bottom: 0;
