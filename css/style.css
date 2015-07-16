@@ -7606,7 +7606,7 @@ h5 {
     .home-feature .block-title .fa-database {
       font-size: 80%; }
     .home-feature .block-title .fa-wordpress {
-      margin-right: .15em; }
+      margin-right: .25em; }
   .home-feature .fa-ul {
     margin-left: 1.5em; }
     .home-feature .fa-ul i {
@@ -7829,5 +7829,9 @@ footer {
   font-size: 14px; }
   .more-link i {
     margin-left: .5em; }
+
+.passkey-link {
+  text-align: center;
+  margin-top: 2em; }
 
 /*# sourceMappingURL=style.css.map */
