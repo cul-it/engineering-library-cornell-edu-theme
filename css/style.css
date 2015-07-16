@@ -7540,6 +7540,7 @@ h5 {
     font-size: 48px !important; } }
 /* Large devices (desktops, 1200px and up) */
 .hero header .container {
+  background: url("../img/1.jpg") no-repeat;
   -webkit-background-size: cover !important;
   -moz-background-size: cover !important;
   -o-background-size: cover !important;

@@ -74,7 +74,7 @@
  */
 ?>
 
-<div class="hero">
+<div class="hero hero-front">
   <div class="cornell-identity">
     <div class="container">
       <div class="row">
@@ -187,5 +187,5 @@
   jQuery(document).ready(function() { 
   var randomImages = ['1','2','3','4','5','6']; 
   var rndNum = Math.floor(Math.random() * randomImages.length); 
-  jQuery(".hero").css({ background: "url('/sites/all/themes/engineering/img/hero/" + randomImages[rndNum] + ".jpg') no-repeat" }); });
+  jQuery(".hero-front").css({ background: "url('/sites/all/themes/engineering/img/hero/" + randomImages[rndNum] + ".jpg') no-repeat" }); });
 </script>
