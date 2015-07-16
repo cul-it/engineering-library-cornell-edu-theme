@@ -76,7 +76,7 @@
 
 <div class="hero">
   <div class="cornell-identity">
-    <div class="container hero-image">
+    <div class="container">
       <div class="row">
         <div class="cornell-logo">
           <a href="http://www.cornell.edu"><img src="/sites/all/themes/engineering/img/cornell.gif" alt="Cornell University"></a>
@@ -187,5 +187,5 @@
   jQuery(document).ready(function() { 
   var randomImages = ['1','2','3','4','5','6']; 
   var rndNum = Math.floor(Math.random() * randomImages.length); 
-  jQuery(".hero-image").css({ background: "url('/sites/all/themes/engineering/img/hero/" + randomImages[rndNum] + ".jpg') no-repeat" }); });
+  jQuery(".hero").css({ background: "url('/sites/all/themes/engineering/img/hero/" + randomImages[rndNum] + ".jpg') no-repeat" }); });
 </script>

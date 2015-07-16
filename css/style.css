@@ -7538,6 +7538,12 @@ h5 {
   .brand {
     font-size: 48px !important; } }
 /* Large devices (desktops, 1200px and up) */
+.hero header .container {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
 .main-content {
   background: white;
   padding: 3em 0 4em 0; }
