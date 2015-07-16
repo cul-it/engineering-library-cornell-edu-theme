@@ -182,3 +182,10 @@
     <?php print render($page['footer']); ?>
   </div>
 </footer>
+
+<script type="text/javascript">
+  jQuery(document).ready(function() { 
+  var randomImages = ['etching1','etching2','etching3','etching4']; 
+  var rndNum = Math.floor(Math.random() * randomImages.length); 
+  jQuery(".hero").css({ background: "url('/sites/all/themes/engineering/images/hero/" + randomImages[rndNum] + ".jpg') no-repeat" }); });
+</script>
