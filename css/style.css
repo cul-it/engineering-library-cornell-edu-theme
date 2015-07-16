@@ -7605,6 +7605,8 @@ h5 {
       color: #637C9A; }
     .home-feature .block-title .fa-database {
       font-size: 80%; }
+    .home-feature .block-title .fa-wordpress {
+      margin-right: .15em; }
   .home-feature .fa-ul {
     margin-left: 1.5em; }
     .home-feature .fa-ul i {
@@ -7634,10 +7636,7 @@ body.admin-menu {
     background: inherit; }
 
   .sidebar {
-    margin-top: 0; }
-
-  .home-feature {
-    .margin-bottom: 0; } }
+    margin-top: 0; } }
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (desktops, 1200px and up) */
 .navbar {
