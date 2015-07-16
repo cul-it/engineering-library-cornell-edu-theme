@@ -37,7 +37,7 @@
 // -------------- //
 .home-feature {
 	@include make-sm-column(4);
-	margin-bottom: 1.5em;
+	margin-bottom: 2em;
 	.block-title {
 		font-size: 26px;
 		border-bottom: 2px solid $pale-gray;

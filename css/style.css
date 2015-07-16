@@ -7591,7 +7591,7 @@ h5 {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-bottom: 1.5em; }
+  margin-bottom: 2em; }
   @media (min-width: 768px) {
     .home-feature {
       float: left;
@@ -7634,7 +7634,10 @@ body.admin-menu {
     background: inherit; }
 
   .sidebar {
-    margin-top: 0; } }
+    margin-top: 0; }
+
+  .home-feature {
+    .margin-bottom: 0; } }
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (desktops, 1200px and up) */
 .navbar {
