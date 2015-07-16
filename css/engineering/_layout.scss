@@ -42,6 +42,9 @@
 		border-bottom: 1px solid $pale-gray;
 		padding-bottom: .25em;
 		font-weight: 300;
+		i {
+			color: $bluegray;
+		}
 	}
 	.fa-ul {
 		margin-left: 1.5em;

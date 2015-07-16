@@ -7600,6 +7600,8 @@ h5 {
     border-bottom: 1px solid #e4e3e3;
     padding-bottom: .25em;
     font-weight: 300; }
+    .home-feature .block-title i {
+      color: #637C9A; }
   .home-feature .fa-ul {
     margin-left: 1.5em; }
     .home-feature .fa-ul i {
