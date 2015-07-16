@@ -16,7 +16,7 @@
 // -------------- //
 .main-content {
 	background: white;
-	padding: 3em 0;
+	padding: 3em 0 4em 0;
 }
 .main-text {
 	@include make-sm-column(8);
@@ -51,6 +51,9 @@
 		.fa-li {
 			top: .5em;
 		}
+	}
+	li {
+		margin-bottom: .25em;
 	}
 }
 .search-bar {
