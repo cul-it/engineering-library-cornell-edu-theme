@@ -7820,4 +7820,10 @@ footer {
   footer p, footer li {
     font-size: 13px; }
 
+.more-link {
+  margin-top: 1.5em;
+  font-size: 14px; }
+  .more-link i {
+    margin-left: .5em; }
+
 /*# sourceMappingURL=style.css.map */
