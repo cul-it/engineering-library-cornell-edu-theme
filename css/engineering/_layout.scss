@@ -37,11 +37,10 @@
 .home-feature {
 	@include make-sm-column(4);
 	.block-title {
-		font-family: $font-family-cul;
-		font-size: 16px;
+		font-size: 24px;
 		border-bottom: 1px solid $pale-gray;
 		padding-bottom: .25em;
-		color: $cornell-red;
+		font-weight: 300;
 	}
 	.fa-ul {
 		margin-left: 1.5em;

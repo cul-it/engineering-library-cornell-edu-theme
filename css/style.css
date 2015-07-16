@@ -7594,11 +7594,10 @@ h5 {
       float: left;
       width: 33.33333%; } }
   .home-feature .block-title {
-    font-family: "Montserrat";
-    font-size: 16px;
+    font-size: 24px;
     border-bottom: 1px solid #e4e3e3;
     padding-bottom: .25em;
-    color: #b31b1b; }
+    font-weight: 300; }
   .home-feature .fa-ul {
     margin-left: 1.5em; }
     .home-feature .fa-ul i {
@@ -7771,10 +7770,9 @@ nav {
   padding: 3em 0 2em 0;
   border: 0; }
   .home-search .block-title {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 300;
-    margin-bottom: .5em;
-    font-family: "Montserrat"; }
+    margin-bottom: .5em; }
   .home-search .form-group {
     position: relative;
     float: left;
