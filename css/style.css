@@ -7538,12 +7538,6 @@ h5 {
   .brand {
     font-size: 48px !important; } }
 /* Large devices (desktops, 1200px and up) */
-.hero header .container {
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
 .main-content {
   background: white;
   padding: 3em 0 4em 0; }
@@ -7623,7 +7617,6 @@ body.admin-menu {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .hero {
-    background: url("../img/24231236resize.jpg") no-repeat 50% 75%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

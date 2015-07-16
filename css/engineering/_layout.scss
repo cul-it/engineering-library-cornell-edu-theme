@@ -1,16 +1,16 @@
 // Hero
 // -------------- //
-.hero {
-	header{
-		.container {
-			// background: url("../img/24231236resize.jpg") no-repeat;
-			-webkit-background-size: cover;
-			-moz-background-size: cover;
-			-o-background-size: cover;
-			background-size: cover;
-		}
-	}
-}
+// .hero {
+// 	header{
+// 		.container {
+// 			background: url("../img/24231236resize.jpg") no-repeat;
+// 			-webkit-background-size: cover;
+// 			-moz-background-size: cover;
+// 			-o-background-size: cover;
+// 			background-size: cover;
+// 		}
+// 	}
+// }
 
 // Main content
 // -------------- //
@@ -91,7 +91,7 @@ body.admin-menu { padding-top: 0 !important; }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm) {
 	.hero {
-		background: url("../img/24231236resize.jpg") no-repeat 50% 75%;
+		// background: url("../img/24231236resize.jpg") no-repeat 50% 75%;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
