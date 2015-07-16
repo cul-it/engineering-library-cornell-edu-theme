@@ -7767,11 +7767,10 @@ nav {
   font-size: 18px; }
 
 .home-search {
-  padding: 3em 0 2em 0;
+  padding: 2em 0 1em 0;
   border: 0; }
   .home-search .block-title {
-    font-size: 20px;
-    font-weight: 300;
+    font-size: 18px;
     margin-bottom: .5em; }
   .home-search .form-group {
     position: relative;
