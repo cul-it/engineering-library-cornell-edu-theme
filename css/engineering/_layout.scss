@@ -4,10 +4,10 @@
 	header{
 		.container {
 			// background: url("../img/24231236resize.jpg") no-repeat;
-			-webkit-background-size: cover;
-			-moz-background-size: cover;
-			-o-background-size: cover;
-			background-size: cover;
+			-webkit-background-size: cover !important;
+			-moz-background-size: cover !important;
+			-o-background-size: cover !important;
+			background-size: cover !important;
 		}
 	}
 }
@@ -92,10 +92,10 @@ body.admin-menu { padding-top: 0 !important; }
 @media (min-width: $screen-sm) {
 	.hero {
 		// background: url("../img/24231236resize.jpg") no-repeat 50% 75%;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
+		-webkit-background-size: cover !important;
+		-moz-background-size: cover !important;
+		-o-background-size: cover !important;
+		background-size: cover !important;
 		header {
 			.container {
 			 	background: inherit;
