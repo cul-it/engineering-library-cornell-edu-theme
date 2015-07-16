@@ -44,7 +44,7 @@
 // Home search box
 // ------------------------ //
 .home-search {
-	padding: 2em 0 1em 0;
+	padding: 1em 0;
 	border: 0;
 	.block-title {
 		font-size: 20px;
@@ -87,6 +87,9 @@
 		.form-group {
 			width: 70%;
 		}
+	}
+	.home-search {
+		padding-top: 1em;
 	}
 }
 
