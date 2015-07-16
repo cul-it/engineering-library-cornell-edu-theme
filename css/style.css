@@ -7539,7 +7539,7 @@ h5 {
   .brand {
     font-size: 48px !important; } }
 /* Large devices (desktops, 1200px and up) */
-.hero header .container {
+.hero {
   background: url("../img/hero/1.jpg") no-repeat;
   -webkit-background-size: cover !important;
   -moz-background-size: cover !important;
