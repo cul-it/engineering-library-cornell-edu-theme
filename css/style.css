@@ -7602,6 +7602,8 @@ h5 {
     font-weight: 300; }
     .home-feature .block-title i {
       color: #637C9A; }
+    .home-feature .block-title .fa-database {
+      font-size: 80%; }
   .home-feature .fa-ul {
     margin-left: 1.5em; }
     .home-feature .fa-ul i {
