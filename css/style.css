@@ -7610,7 +7610,7 @@ h5 {
     font-weight: 300; }
     .home-feature .block-title i {
       color: #ddd;
-      font-size: 48px; }
+      font-size: 24px; }
     .home-feature .block-title .fa-wordpress {
       margin-right: .25em; }
   .home-feature .fa-ul {
@@ -7646,6 +7646,8 @@ body.admin-menu {
 
   .home-feature .block-title {
     font-size: 18px; }
+    .home-feature .block-title i {
+      font-size: 18px; }
 
   .search-bar {
     padding-bottom: 2em; } }
