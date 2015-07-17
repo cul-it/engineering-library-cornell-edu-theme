@@ -7609,7 +7609,8 @@ h5 {
     padding-bottom: .25em;
     font-weight: 300; }
     .home-feature .block-title i {
-      color: #637C9A; }
+      color: #ddd;
+      font-size: 48px; }
     .home-feature .block-title .fa-database {
       font-size: 80%; }
     .home-feature .block-title .fa-wordpress {
