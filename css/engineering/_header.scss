@@ -50,6 +50,12 @@
 	text-decoration: none;
 }
 
+// Alert box
+// ------------------- //
+.alert-box {
+	@include make-sm-column(4);
+}
+
 // MEDIA QUERIES
 // -------------------------
 

@@ -125,7 +125,9 @@
         </div>
         <?php if (!empty($page['alert'])): ?>
           <div class="alert-box">
-            <?php print render($page['alert']); ?>
+            <div class="well">
+              <?php print render($page['alert']); ?>
+            </div>
           </div>
         <?php endif; ?>
       </div>
