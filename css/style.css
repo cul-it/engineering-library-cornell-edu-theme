@@ -7835,7 +7835,10 @@ nav {
     clear: both; }
 
 .search-site-link {
-  float: left; }
+  float: left;
+  padding: 3px 0 0 15px;
+  border-left: 1px solid #cbcbcb;
+  margin-left: 15px; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
