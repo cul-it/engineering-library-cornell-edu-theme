@@ -146,7 +146,7 @@
 
 <div class="search-bar">
   <div class="container">
-    <?php print render($page['home_search']); ?>
+    <?php print render($page['search_bar']); ?>
   </div>
 </div>
 

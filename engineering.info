@@ -13,7 +13,7 @@ regions[main_nav]     	= 'Main nav'
 regions[mobile_nav]     = 'Mobile nav'
 regions[mobile_search]	= 'Mobile search'
 regions[alert]			= 'Alert'
-regions[search]			= 'Search'
+regions[search_bar]   	= 'Search bar'
 regions[sidebar]		= 'Sidebar'
 regions[help]           = 'Help'
 regions[content]        = 'Content'
@@ -23,7 +23,7 @@ regions[page_bottom]    = 'Page bottom'
 regions[home_column1]   = 'Home column 1'
 regions[home_column2]   = 'Home column 2'
 regions[home_column3]   = 'Home column 3'
-regions[home_search]   	= 'Home page search box'
+
 
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Stylesheets

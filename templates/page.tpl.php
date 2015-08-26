@@ -144,6 +144,12 @@
   <?php endif; ?>
 </div>
 
+<div class="search-bar">
+  <div class="container">
+    <?php print render($page['search_bar']); ?>
+  </div>
+</div>
+
 <div class="main-content">
   <div class="container">
     <?php if (!empty($page['sidebar'])): ?>
