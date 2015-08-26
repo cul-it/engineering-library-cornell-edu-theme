@@ -7842,6 +7842,10 @@ nav {
 
 .search-by-page-form .container {
   padding-left: 0; }
+.search-by-page-form .form-group {
+  width: 80%;
+  float: left;
+  margin-right: 10px; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
@@ -7854,9 +7858,7 @@ nav {
   .search-by-page-form .container {
     padding-left: 0; }
   .search-by-page-form .form-group {
-    width: 50%;
-    float: left;
-    margin-right: 10px; } }
+    width: 50%; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .brand {

@@ -84,6 +84,11 @@
 	.container {
 		padding-left: 0;
 	}
+	.form-group {
+		width: 80%;
+		float: left;
+		margin-right: 10px;
+	}
 }
 
 // MEDIA QUERIES
@@ -118,8 +123,6 @@
 		}
 		.form-group {
 			width: 50%;
-			float: left;
-			margin-right: 10px;
 		}
 	}
 }
