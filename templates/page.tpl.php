@@ -123,9 +123,9 @@
             <a class="brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
           <?php endif; ?>
         </div>
-        <?php if (!empty($page['search'])): ?>
-          <div class="header-search hidden-xs">
-            <?php print render($page['search']); ?>
+        <?php if (!empty($page['alert'])): ?>
+          <div class="alert-box">
+            <?php print render($page['alert']); ?>
           </div>
         <?php endif; ?>
       </div>
@@ -141,12 +141,6 @@
     </nav>
   <?php endif; ?>
 </div>
-
-<?php if (!empty($page['alert'])): ?>
-  <div class="container alert-bar">
-    <?php print render($page['alert']); ?>
-  </div>
-<?php endif; ?>
 
 <div class="main-content">
   <div class="container">

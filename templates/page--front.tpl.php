@@ -123,6 +123,11 @@
             <a class="brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
           <?php endif; ?>
         </div>
+        <?php if (!empty($page['alert'])): ?>
+          <div class="alert-box">
+            <?php print render($page['alert']); ?>
+          </div>
+        <?php endif; ?>
       </div>
     </div>
   </header>
