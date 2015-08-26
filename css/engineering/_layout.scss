@@ -44,7 +44,7 @@
 		padding-bottom: .25em;
 		font-weight: 300;
 		i {
-			color: #ddd;
+			color: $lighter-gray;
 			font-size: 36px;
 		}
 		.fa-wordpress {
@@ -121,9 +121,6 @@ body.admin-menu { padding-top: 0 !important; }
 				font-size: 18px;
 			}
 		}
-	}
-	.search-bar {
-		padding-bottom: 2em;
 	}
 }
 

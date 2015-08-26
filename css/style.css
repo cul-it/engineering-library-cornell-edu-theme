@@ -7625,7 +7625,7 @@ h5 {
     padding-bottom: .25em;
     font-weight: 300; }
     .home-feature .block-title i {
-      color: #ddd;
+      color: #cbcbcb;
       font-size: 36px; }
     .home-feature .block-title .fa-wordpress {
       margin-right: .25em; }
@@ -7663,10 +7663,7 @@ body.admin-menu {
   .home-feature .block-title {
     font-size: 18px; }
     .home-feature .block-title i {
-      font-size: 18px; }
-
-  .search-bar {
-    padding-bottom: 2em; } }
+      font-size: 18px; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .home-feature .block-title {
