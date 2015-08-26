@@ -142,12 +142,6 @@
   <?php endif; ?>
 </div>
 
-<?php if (!empty($page['alert'])): ?>
-  <div class="container alert-bar">
-    <?php print render($page['alert']); ?>
-  </div>
-<?php endif; ?>
-
 <div class="search-bar">
   <div class="container">
     <?php print render($page['home_search']); ?>
