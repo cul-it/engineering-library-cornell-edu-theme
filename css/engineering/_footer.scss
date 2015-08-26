@@ -32,3 +32,15 @@ footer {
 		font-size: 13px;
 	}
 }
+.social-links {
+	float: left;
+	a {
+		font-size: 3em;
+		padding-bottom: 0;
+		border: 0;
+		float: left;
+	}
+	a:hover {
+		border: 0;
+	}
+}

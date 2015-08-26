@@ -7908,6 +7908,16 @@ footer {
   footer p, footer li {
     font-size: 13px; }
 
+.social-links {
+  float: left; }
+  .social-links a {
+    font-size: 3em;
+    padding-bottom: 0;
+    border: 0;
+    float: left; }
+  .social-links a:hover {
+    border: 0; }
+
 .more-link {
   margin-top: 1.5em;
   font-size: 14px; }
