@@ -7815,7 +7815,8 @@ nav {
   border: 0; }
   .home-search .block-title {
     font-size: 20px;
-    margin-bottom: .5em; }
+    margin-bottom: .5em;
+    float: left; }
   .home-search .form-group {
     position: relative;
     float: left;
@@ -7830,6 +7831,11 @@ nav {
     padding: 5px 0; }
     .home-search .btn-search i {
       font-size: 32px; }
+  .home-search form {
+    clear: both; }
+
+.search-site-link {
+  float: left; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {

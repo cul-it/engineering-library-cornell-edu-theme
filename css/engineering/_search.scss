@@ -49,6 +49,7 @@
 	.block-title {
 		font-size: 20px;
 		margin-bottom: .5em;
+		float: left;
 	}
 	.form-group {
 		@include make-xs-column(8);
@@ -63,6 +64,15 @@
 			font-size: 32px;
 		}
 	}
+	form {
+		clear: both;
+	}
+}
+
+// Search this site
+// ------------------------ //
+.search-site-link {
+	float: left;
 }
 
 // MEDIA QUERIES
