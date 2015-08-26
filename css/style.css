@@ -7842,10 +7842,6 @@ nav {
 
 .search-by-page-form .container {
   padding-left: 0; }
-.search-by-page-form .form-group {
-  width: 50%;
-  float: left;
-  margin-right: 10px; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
@@ -7853,7 +7849,14 @@ nav {
     width: 70%; }
 
   .home-search {
-    padding-top: 2em; } }
+    padding-top: 2em; }
+
+  .search-by-page-form .container {
+    padding-left: 0; }
+  .search-by-page-form .form-group {
+    width: 50%;
+    float: left;
+    margin-right: 10px; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .brand {

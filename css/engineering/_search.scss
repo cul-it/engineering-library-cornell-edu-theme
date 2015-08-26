@@ -84,11 +84,6 @@
 	.container {
 		padding-left: 0;
 	}
-	.form-group {
-		width: 50%;
-		float: left;
-		margin-right: 10px;
-	}
 }
 
 // MEDIA QUERIES
@@ -117,6 +112,16 @@
 	.home-search {
 		padding-top: 2em;
 	}
+	.search-by-page-form {
+		.container {
+			padding-left: 0;
+		}
+		.form-group {
+			width: 50%;
+			float: left;
+			margin-right: 10px;
+		}
+	}
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -132,4 +137,5 @@
 }
 /* Large devices (desktops, 1200px and up) */
 @media (min-width: $screen-lg) {
+
 }
