@@ -7840,6 +7840,9 @@ nav {
   border-left: 1px solid #cbcbcb;
   margin-left: 15px; }
 
+.search-by-page-form .container {
+  padding-left: 0; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .header-search .form-group {
