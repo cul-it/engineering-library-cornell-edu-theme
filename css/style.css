@@ -7909,12 +7909,14 @@ footer {
     font-size: 13px; }
 
 .social-links {
-  float: left; }
-  .social-links a {
-    font-size: 3em;
-    padding-bottom: 0;
-    border: 0;
+  float: right; }
+  .social-links i {
+    font-size: 3em; }
+  .social-links div {
     float: left; }
+  .social-links a {
+    padding-bottom: 0;
+    border: 0; }
   .social-links a:hover {
     border: 0; }
 

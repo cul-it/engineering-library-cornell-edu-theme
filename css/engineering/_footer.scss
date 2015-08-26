@@ -33,12 +33,16 @@ footer {
 	}
 }
 .social-links {
-	float: left;
-	a {
+	float: right;
+	i {
 		font-size: 3em;
+	}
+	div {
+		float: left;
+	}
+	a {
 		padding-bottom: 0;
 		border: 0;
-		float: left;
 	}
 	a:hover {
 		border: 0;
