@@ -54,6 +54,14 @@
 // ------------------- //
 .alert-box {
 	@include make-sm-column(4);
+	.well {
+		margin: .5em 0;
+	}
+	h2 {
+		font-size: 24px;
+		font-weight: 400;
+		color: $cornell-red;
+	}
 }
 
 // MEDIA QUERIES
