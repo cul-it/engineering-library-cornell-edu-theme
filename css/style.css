@@ -7673,7 +7673,9 @@ body.admin-menu {
 /* Large devices (desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .home-feature .block-title {
-    font-size: 26px; } }
+    font-size: 26px; }
+    .home-feature .block-title i {
+      font-size: 36px; } }
 .navbar {
   border-radius: 0;
   margin-bottom: 0;
