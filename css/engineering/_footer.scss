@@ -1,3 +1,10 @@
+.footer-primary {
+	@include make-sm-column(8);
+}
+.footer-secondary {
+	@include make-sm-column(4);
+}
+
 footer {
 	padding: 2em 0;
 	.nav {
