@@ -7913,12 +7913,19 @@ footer {
   .social-links i {
     font-size: 3em; }
   .social-links div {
-    float: left; }
+    float: left;
+    margin-left: .5em; }
   .social-links a {
     padding-bottom: 0;
     border: 0; }
   .social-links a:hover {
     border: 0; }
+  .social-links .rss-link i {
+    color: #d77b28; }
+  .social-links .facebook-link i {
+    color: #3a649e; }
+  .social-links .twitter-link i {
+    color: #00cdf0; }
 
 .more-link {
   margin-top: 1.5em;
