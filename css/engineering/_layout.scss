@@ -84,27 +84,9 @@ body.admin-menu { padding-top: 0 !important; }
 // MEDIA QUERIES
 // -------------------------
 
-  // /* Extra small devices (phones, up to 480px) */
-  // /* No media query since this is the default in Bootstrap */
-
-  // /* Small devices (tablets, 768px and up) */
-  // @media (min-width: @screen-sm) { ... }
-
-  // /* Medium devices (desktops, 992px and up) */
-  // @media (min-width: @screen-md) { ... }
-
-  // /* Large devices (large desktops, 1200px and up) */
-  // @media (min-width: @screen-lg) { ... }
-
-
 /* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm) {
 	.hero {
-		// background: url("../img//hero/1.jpg") no-repeat 50% 75%;
-		// -webkit-background-size: cover !important;
-		// -moz-background-size: cover !important;
-		// -o-background-size: cover !important;
-		// background-size: cover !important;
 		header {
 			.container {
 			 	background: inherit;

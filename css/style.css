@@ -7909,7 +7909,7 @@ footer {
     font-size: 13px; }
 
 .social-links {
-  float: right; }
+  margin-top: 1em; }
   .social-links i {
     font-size: 3em; }
   .social-links div {
@@ -7918,7 +7918,7 @@ footer {
   .social-links a {
     padding-bottom: 0;
     border: 0; }
-  .social-links a:hover {
+  .social-links a:hover, .social-links a:active, .social-links a:focus {
     border: 0; }
   .social-links .rss-link i {
     color: #d77b28; }
@@ -7927,6 +7927,13 @@ footer {
   .social-links .twitter-link i {
     color: #00cdf0; }
 
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .social-links {
+    float: right;
+    margin-top: 0; } }
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (desktops, 1200px and up) */
 .more-link {
   margin-top: 1.5em;
   font-size: 14px; }

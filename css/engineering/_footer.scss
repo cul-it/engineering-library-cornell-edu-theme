@@ -33,7 +33,7 @@ footer {
 	}
 }
 .social-links {
-	float: right;
+	margin-top: 1em;
 	i {
 		font-size: 3em;
 	}
@@ -45,7 +45,7 @@ footer {
 		padding-bottom: 0;
 		border: 0;
 	}
-	a:hover {
+	a:hover, a:active, a:focus {
 		border: 0;
 	}
 	.rss-link {
@@ -63,4 +63,24 @@ footer {
 			color: #00cdf0;
 		}
 	}
+}
+
+// MEDIA QUERIES
+// -------------------------
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm) {
+	.social-links {
+		float: right;
+		margin-top: 0;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md) {
+
+}
+/* Large devices (desktops, 1200px and up) */
+@media (min-width: $screen-lg) {
+
 }
