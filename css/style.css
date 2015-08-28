@@ -7697,6 +7697,9 @@ body.admin-menu {
   font-size: 14px;
   text-transform: uppercase;
   float: left; }
+  #menu .nav li ul a {
+    padding: 5px 10px;
+    font-size: 14px; }
 #menu .nav a {
   color: white;
   padding: 10px 15px; }
