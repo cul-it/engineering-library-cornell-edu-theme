@@ -7726,8 +7726,6 @@ nav {
         background: black; }
       nav .nav li ul li:first-child {
         padding-top: 10px; }
-      nav .nav li ul .menuparent:before {
-        content: "\f078"; }
       nav .nav li ul a {
         padding: 10px 15px;
         font-size: 14px;
@@ -7741,9 +7739,6 @@ nav {
 
 .sf-menu.menu ul {
   margin-top: .75em; }
-
-.sf-sub-indicator {
-  background-image: none; }
 
 #mobile-nav {
   background: white; }

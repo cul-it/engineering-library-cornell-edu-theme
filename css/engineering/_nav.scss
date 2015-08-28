@@ -67,9 +67,6 @@ nav {
 				li:first-child {
 					padding-top: 10px;
 				}
-				.menuparent:before {
-					content: "\f078";
-				}
 				a {
 					padding: 10px 15px;
 					font-size: 14px;
@@ -96,9 +93,6 @@ nav {
 	ul {
 		margin-top: .75em;
 	}
-}
-.sf-sub-indicator {
-	background-image: none;
 }
 
 // Mobile nav
