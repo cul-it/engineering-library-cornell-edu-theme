@@ -7725,10 +7725,11 @@ nav {
       background: black; }
     nav .nav li ul a {
       padding: 5px;
-      font-size: 14px;
       display: inline-block; }
     nav .nav li ul i {
       display: none; }
+  nav .nav .sfHover {
+    background: black; }
   nav .nav .active a, nav .nav .active a:hover, nav .nav .active a:active, nav .nav .active a:focus {
     background: black; }
 

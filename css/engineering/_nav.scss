@@ -66,13 +66,15 @@ nav {
 				}
 				a {
 					padding: 5px;
-					font-size: 14px;
 					display: inline-block;
 				}
 				i {
 					display: none;
 				}
 			}
+		}
+		.sfHover {
+			background: black;
 		}
 		.active {
 			a, a:hover, a:active, a:focus {
