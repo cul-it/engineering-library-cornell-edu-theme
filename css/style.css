@@ -7723,8 +7723,11 @@ nav {
     nav .nav li ul li {
       padding: 0 5px;
       background: black; }
+    nav .nav li ul li:first-child {
+      margin-top: 1em; }
     nav .nav li ul a {
-      padding: 5px;
+      padding: 5px 15px;
+      font-size: 14px;
       display: inline-block; }
     nav .nav li ul i {
       display: none; }
