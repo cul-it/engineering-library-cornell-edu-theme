@@ -7720,14 +7720,15 @@ nav {
     nav .nav li a:focus {
       background: black;
       color: white; }
+    nav .nav li ul li {
+      padding: 0 5px;
+      background: black; }
     nav .nav li ul a {
-      padding: 5px 10px;
-      font-size: 14px; }
+      padding: 10px 5px;
+      font-size: 14px;
+      display: inline-block; }
   nav .nav .active a, nav .nav .active a:hover, nav .nav .active a:active, nav .nav .active a:focus {
     background: black; }
-
-.sf-menu li {
-  background: black; }
 
 #mobile-nav {
   background: white; }
