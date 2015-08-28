@@ -22,12 +22,6 @@
 			font-size: 14px;
 			text-transform: uppercase;
 			float: left;
-			ul {
-				background: black;
-				a {
-					padding: 0;
-				}
-			}
 		}
 		a {
 			color: white;
@@ -42,6 +36,13 @@
 				font-weight: 700;
 			}
 		}
+	}
+}
+
+// Superfish dropdown
+.sfmennu {
+	li {
+		background: black;
 	}
 }
 
