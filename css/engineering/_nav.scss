@@ -22,6 +22,12 @@
 			font-size: 14px;
 			text-transform: uppercase;
 			float: left;
+			ul {
+				background: black;
+				a {
+					padding: 0;
+				}
+			}
 		}
 		a {
 			color: white;
@@ -34,12 +40,6 @@
 		.active {
 			a, a:hover, a:active, a:focus {
 				font-weight: 700;
-			}
-		}
-		ul {
-			background: black;
-			a {
-				padding: 0;
 			}
 		}
 	}
