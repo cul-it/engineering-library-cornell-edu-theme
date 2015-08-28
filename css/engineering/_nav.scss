@@ -60,9 +60,7 @@ nav {
 			}
 			// Superfish dropdown
 			ul {
-				margin-top: .75em;
 				li {
-					padding: 0 5px;
 					background: black;
 				}
 				li:first-child {
@@ -86,6 +84,13 @@ nav {
 				background: rgba(0, 0, 0, 1);
 			}
 		}
+	}
+}
+
+// More superfish styling
+.sf-menu.menu {
+	ul {
+		margin-top: .75em;
 	}
 }
 

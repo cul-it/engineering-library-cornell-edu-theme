@@ -7720,23 +7720,23 @@ nav {
     nav .nav li a:focus {
       background: black;
       color: white; }
-    nav .nav li ul {
-      margin-top: .75em; }
-      nav .nav li ul li {
-        padding: 0 5px;
-        background: black; }
-      nav .nav li ul li:first-child {
-        padding-top: 10px; }
-      nav .nav li ul a {
-        padding: 10px 15px;
-        font-size: 14px;
-        display: inline-block; }
-      nav .nav li ul i {
-        display: none; }
+    nav .nav li ul li {
+      background: black; }
+    nav .nav li ul li:first-child {
+      padding-top: 10px; }
+    nav .nav li ul a {
+      padding: 10px 15px;
+      font-size: 14px;
+      display: inline-block; }
+    nav .nav li ul i {
+      display: none; }
   nav .nav .sfHover {
     background: black; }
   nav .nav .active a, nav .nav .active a:hover, nav .nav .active a:active, nav .nav .active a:focus {
     background: black; }
+
+.sf-menu.menu ul {
+  margin-top: .75em; }
 
 #mobile-nav {
   background: white; }
