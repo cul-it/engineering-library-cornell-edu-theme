@@ -7729,9 +7729,10 @@ nav {
       nav .nav li ul li:first-child {
         padding-top: 10px; }
       nav .nav li ul a {
-        padding: 10px 15px;
-        font-size: 14px;
-        display: inline-block; }
+        padding: 0 25px;
+        font-size: 15px;
+        display: inline-block;
+        line-height: 1.4em; }
       nav .nav li ul i {
         display: none; }
   nav .nav .sfHover {
