@@ -47,6 +47,7 @@ nav {
 	.nav {
 		li {
 			float: left;
+			padding-right: 15px;
 			a {
 				color: white;
 				font-size: 18px;
@@ -63,6 +64,7 @@ nav {
 				padding-bottom: .75em;
 				li {
 					background: black;
+					padding-right: 0;
 				}
 				li:first-child {
 					padding-top: 10px;
@@ -91,8 +93,14 @@ nav {
 // More superfish styling
 .sf-menu.menu {
 	ul {
-		margin-top: .75em;
+		margin-top: .6em;
 	}
+}
+a > .sf-sub-indicator, span.nolink > .sf-sub-indicator {
+	top: 1.4em;
+}
+.sf-sub-indicator {
+	right: .25em;
 }
 
 // Mobile nav

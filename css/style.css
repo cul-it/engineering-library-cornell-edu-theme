@@ -7451,7 +7451,7 @@ footer a:focus {
   text-decoration: none; }
 
 p, li {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5em; }
 
 p, ul {
@@ -7710,7 +7710,8 @@ nav {
   background: #222;
   background: rgba(34, 34, 34, 0.75); }
   nav .nav li {
-    float: left; }
+    float: left;
+    padding-right: 15px; }
     nav .nav li a {
       color: white;
       font-size: 18px;
@@ -7723,7 +7724,8 @@ nav {
     nav .nav li ul {
       padding-bottom: .75em; }
       nav .nav li ul li {
-        background: black; }
+        background: black;
+        padding-right: 0; }
       nav .nav li ul li:first-child {
         padding-top: 10px; }
       nav .nav li ul a {
@@ -7738,7 +7740,13 @@ nav {
     background: black; }
 
 .sf-menu.menu ul {
-  margin-top: .75em; }
+  margin-top: .6em; }
+
+a > .sf-sub-indicator, span.nolink > .sf-sub-indicator {
+  top: 1.4em; }
+
+.sf-sub-indicator {
+  right: .25em; }
 
 #mobile-nav {
   background: white; }
