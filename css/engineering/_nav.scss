@@ -67,6 +67,10 @@ nav {
 				li:first-child {
 					padding-top: 10px;
 				}
+				.menuparent:before {
+					content: $fa-var-chevron-down;
+// "\f078";
+				}
 				a {
 					padding: 10px 15px;
 					font-size: 14px;

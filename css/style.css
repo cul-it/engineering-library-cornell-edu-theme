@@ -7726,6 +7726,8 @@ nav {
         background: black; }
       nav .nav li ul li:first-child {
         padding-top: 10px; }
+      nav .nav li ul .menuparent:before {
+        content: ""; }
       nav .nav li ul a {
         padding: 10px 15px;
         font-size: 14px;
