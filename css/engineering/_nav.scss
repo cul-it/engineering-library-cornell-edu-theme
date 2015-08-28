@@ -61,7 +61,6 @@ nav {
 			}
 			// Superfish dropdown
 			ul {
-				padding-bottom: 2em;
 				li {
 					background: black;
 					padding-right: 0;
@@ -95,6 +94,7 @@ nav {
 .sf-menu.menu {
 	ul {
 		margin-top: .6em;
+		padding-bottom: 1em;
 	}
 }
 a > .sf-sub-indicator, span.nolink > .sf-sub-indicator {

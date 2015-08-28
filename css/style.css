@@ -7721,27 +7721,26 @@ nav {
     nav .nav li a:focus {
       background: black;
       color: white; }
-    nav .nav li ul {
-      padding-bottom: 2em; }
-      nav .nav li ul li {
-        background: black;
-        padding-right: 0; }
-      nav .nav li ul li:first-child {
-        padding-top: 10px; }
-      nav .nav li ul a {
-        padding: 0 15px 10px 15px;
-        font-size: 15px;
-        display: inline-block;
-        line-height: 1.4em; }
-      nav .nav li ul i {
-        display: none; }
+    nav .nav li ul li {
+      background: black;
+      padding-right: 0; }
+    nav .nav li ul li:first-child {
+      padding-top: 10px; }
+    nav .nav li ul a {
+      padding: 0 15px 10px 15px;
+      font-size: 15px;
+      display: inline-block;
+      line-height: 1.4em; }
+    nav .nav li ul i {
+      display: none; }
   nav .nav .sfHover {
     background: black; }
   nav .nav .active a, nav .nav .active a:hover, nav .nav .active a:active, nav .nav .active a:focus {
     background: black; }
 
 .sf-menu.menu ul {
-  margin-top: .6em; }
+  margin-top: .6em;
+  padding-bottom: 1em; }
 
 a > .sf-sub-indicator, span.nolink > .sf-sub-indicator {
   top: 1.4em; }
