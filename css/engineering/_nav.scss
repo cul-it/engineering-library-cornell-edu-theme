@@ -60,9 +60,13 @@ nav {
 			}
 			// Superfish dropdown
 			ul {
+				margin-top: .75em;
 				li {
 					padding: 0 5px;
 					background: black;
+				}
+				li:first-child {
+					padding-top: 10px;
 				}
 				a {
 					padding: 10px 15px;
