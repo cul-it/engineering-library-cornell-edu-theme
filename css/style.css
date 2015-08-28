@@ -7705,6 +7705,10 @@ body.admin-menu {
   text-decoration: underline; }
 #menu .nav .active a, #menu .nav .active a:hover, #menu .nav .active a:active, #menu .nav .active a:focus {
   font-weight: 700; }
+#menu .nav ul {
+  background: black; }
+  #menu .nav ul a {
+    padding: 0; }
 
 nav {
   background: #222;
