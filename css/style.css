@@ -7697,9 +7697,6 @@ body.admin-menu {
   font-size: 14px;
   text-transform: uppercase;
   float: left; }
-  #menu .nav li ul a {
-    padding: 5px 10px;
-    font-size: 14px; }
 #menu .nav a {
   color: white;
   padding: 10px 15px; }
@@ -7708,9 +7705,6 @@ body.admin-menu {
   text-decoration: underline; }
 #menu .nav .active a, #menu .nav .active a:hover, #menu .nav .active a:active, #menu .nav .active a:focus {
   font-weight: 700; }
-
-.sf-menu li {
-  background: black; }
 
 nav {
   background: #222;
@@ -7726,8 +7720,14 @@ nav {
     nav .nav li a:focus {
       background: black;
       color: white; }
+    nav .nav li ul a {
+      padding: 5px 10px;
+      font-size: 14px; }
   nav .nav .active a, nav .nav .active a:hover, nav .nav .active a:active, nav .nav .active a:focus {
     background: black; }
+
+.sf-menu li {
+  background: black; }
 
 #mobile-nav {
   background: white; }

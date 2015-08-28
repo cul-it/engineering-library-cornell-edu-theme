@@ -22,13 +22,6 @@
 			font-size: 14px;
 			text-transform: uppercase;
 			float: left;
-			// Superfish dropdown
-			ul {
-				a {
-					padding: 5px 10px;
-					font-size: 14px;
-				}
-			}
 		}
 		a {
 			color: white;
@@ -43,13 +36,6 @@
 				font-weight: 700;
 			}
 		}
-	}
-}
-
-// Superfish dropdown
-.sf-menu {
-	li {
-		background: black;
 	}
 }
 
@@ -72,12 +58,27 @@ nav {
 				background: rgba(0, 0, 0, 1);
 				color: white;
 			}
+			// Superfish dropdown
+			ul {
+				a {
+					padding: 5px 10px;
+					font-size: 14px;
+				}
+			}
 		}
 		.active {
 			a, a:hover, a:active, a:focus {
 				background: rgba(0, 0, 0, 1);
 			}
 		}
+	}
+}
+
+// Superfish dropdown
+// ------------------- //
+.sf-menu {
+	li {
+		background: black;
 	}
 }
 
