@@ -7729,7 +7729,7 @@ nav {
       nav .nav li ul li:first-child {
         padding-top: 10px; }
       nav .nav li ul a {
-        padding: 0 25px;
+        padding: 0 15px 10px 15px;
         font-size: 15px;
         display: inline-block;
         line-height: 1.4em; }
