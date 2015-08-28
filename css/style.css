@@ -7720,16 +7720,18 @@ nav {
     nav .nav li a:focus {
       background: black;
       color: white; }
-    nav .nav li ul li {
-      background: black; }
-    nav .nav li ul li:first-child {
-      padding-top: 10px; }
-    nav .nav li ul a {
-      padding: 10px 15px;
-      font-size: 14px;
-      display: inline-block; }
-    nav .nav li ul i {
-      display: none; }
+    nav .nav li ul {
+      padding-bottom: .75em; }
+      nav .nav li ul li {
+        background: black; }
+      nav .nav li ul li:first-child {
+        padding-top: 10px; }
+      nav .nav li ul a {
+        padding: 10px 15px;
+        font-size: 14px;
+        display: inline-block; }
+      nav .nav li ul i {
+        display: none; }
   nav .nav .sfHover {
     background: black; }
   nav .nav .active a, nav .nav .active a:hover, nav .nav .active a:active, nav .nav .active a:focus {
@@ -7737,6 +7739,9 @@ nav {
 
 .sf-menu.menu ul {
   margin-top: .75em; }
+
+.sf-sub-indicator {
+  background-image: none; }
 
 #mobile-nav {
   background: white; }

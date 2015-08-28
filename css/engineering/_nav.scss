@@ -60,6 +60,7 @@ nav {
 			}
 			// Superfish dropdown
 			ul {
+				padding-bottom: .75em;
 				li {
 					background: black;
 				}
@@ -92,6 +93,9 @@ nav {
 	ul {
 		margin-top: .75em;
 	}
+}
+.sf-sub-indicator {
+	background-image: none;
 }
 
 // Mobile nav
