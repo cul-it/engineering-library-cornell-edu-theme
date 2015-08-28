@@ -7706,7 +7706,7 @@ body.admin-menu {
 #menu .nav .active a, #menu .nav .active a:hover, #menu .nav .active a:active, #menu .nav .active a:focus {
   font-weight: 700; }
 
-.sfmennu li {
+.sf-menu li {
   background: black; }
 
 nav {
