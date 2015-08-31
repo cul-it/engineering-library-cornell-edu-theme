@@ -7733,7 +7733,7 @@ nav .nav li {
     line-height: 1.4em; }
   nav .nav li ul i {
     display: none; }
-nav .nav .active a, nav .nav .active a:hover, nav .nav .active a:active, nav .nav .active a:focus {
+nav .nav .active a, nav .nav .active a:hover, nav .nav .active a:active, nav .nav .active a:focus, nav .nav .active-trail a, nav .nav .active-trail a:hover, nav .nav .active-trail a:active, nav .nav .active-trail a:focus {
   background: black; }
 
 .navbar {
