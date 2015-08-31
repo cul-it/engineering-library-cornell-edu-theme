@@ -7487,6 +7487,12 @@ h5 {
   .breadcrumb li {
     font-size: 12px; }
 
+.media {
+  margin-bottom: 2em; }
+
+.media-left {
+  padding-right: 15px; }
+
 .cornell-identity .container {
   background: #b31b1b; }
 .cornell-identity .cornell-logo {
