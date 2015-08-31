@@ -7625,7 +7625,7 @@ h5 {
     padding-bottom: .25em;
     font-weight: 300; }
     .home-feature .block-title i {
-      color: #b31b1b;
+      color: #999;
       font-size: 36px; }
     .home-feature .block-title .fa-wordpress {
       margin-right: .25em; }
@@ -7733,8 +7733,6 @@ nav .nav li {
     line-height: 1.4em; }
   nav .nav li ul i {
     display: none; }
-nav .nav .sfHover {
-  background: black; }
 nav .nav .active a, nav .nav .active a:hover, nav .nav .active a:active, nav .nav .active a:focus {
   background: black; }
 
