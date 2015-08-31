@@ -60,6 +60,12 @@ h5 {
 		display: none;
 	}
 }
+// a little more bottom margin for li's in main text area
+.main-text {
+	li {
+		margin-bottom: .25em;
+	}
+}
 
 // Well overrides
 // ------------------- //

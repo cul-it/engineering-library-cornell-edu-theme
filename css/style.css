@@ -7476,6 +7476,9 @@ h5 {
 .front h1 {
   display: none; }
 
+.main-text li {
+  margin-bottom: .25em; }
+
 .well {
   border-radius: 0;
   box-shadow: none; }
