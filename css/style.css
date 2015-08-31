@@ -7708,10 +7708,10 @@ body.admin-menu {
 
 nav .container {
   background: #222;
-  background: rgba(34, 34, 34, 0.75); }
+  background: rgba(34, 34, 34, 0.75);
+  padding-left: 0; }
 nav .nav li {
-  float: left;
-  padding-right: 15px; }
+  float: left; }
   nav .nav li a {
     color: white;
     font-size: 18px;

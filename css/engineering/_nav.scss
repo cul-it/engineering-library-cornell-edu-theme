@@ -45,11 +45,11 @@ nav {
 	.container {
 		background: $dark-gray;
 		background: rgba(34, 34, 34, 0.75);
+		padding-left: 0;
 	}
 	.nav {
 		li {
 			float: left;
-			padding-right: 15px;
 			a {
 				color: white;
 				font-size: 18px;
