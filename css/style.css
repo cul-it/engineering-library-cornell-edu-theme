@@ -7749,6 +7749,9 @@ a > .sf-sub-indicator, span.nolink > .sf-sub-indicator {
 .sf-sub-indicator {
   right: .5em; }
 
+.sf-menu a.sf-with-ul, .sf-menu span.nolink.sf-with-ul {
+  padding-right: 25px; }
+
 #mobile-nav {
   background: white; }
   #mobile-nav a {
