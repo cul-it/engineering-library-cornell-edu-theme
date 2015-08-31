@@ -7487,12 +7487,6 @@ h5 {
   .breadcrumb li {
     font-size: 12px; }
 
-.media {
-  margin-bottom: 2em; }
-
-.media-left {
-  padding-right: 15px; }
-
 .cornell-identity .container {
   background: #b31b1b; }
 .cornell-identity .cornell-logo {
@@ -7974,5 +7968,15 @@ footer {
 .passkey-link {
   text-align: center;
   margin-top: 2em; }
+
+.media {
+  margin-bottom: 2em; }
+
+.media-left {
+  padding-right: 15px; }
+
+.media-body div {
+  font-size: 16px;
+  margin-bottom: .25em; }
 
 /*# sourceMappingURL=style.css.map */
