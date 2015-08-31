@@ -42,8 +42,10 @@
 // Main nav
 // ------------------- //
 nav {
-	background: $dark-gray;
-	background: rgba(34, 34, 34, 0.75);
+	.container {
+		background: $dark-gray;
+		background: rgba(34, 34, 34, 0.75);
+	}
 	.nav {
 		li {
 			float: left;
@@ -88,6 +90,9 @@ nav {
 			}
 		}
 	}
+}
+.navbar {
+	border: 0;
 }
 
 // More superfish styling

@@ -7706,37 +7706,40 @@ body.admin-menu {
 #menu .nav .active a, #menu .nav .active a:hover, #menu .nav .active a:active, #menu .nav .active a:focus {
   font-weight: 700; }
 
-nav {
+nav .container {
   background: #222;
   background: rgba(34, 34, 34, 0.75); }
-  nav .nav li {
-    float: left;
-    padding-right: 15px; }
-    nav .nav li a {
-      color: white;
-      font-size: 18px;
-      padding: 15px 20px; }
-    nav .nav li a:hover,
-    nav .nav li a:active,
-    nav .nav li a:focus {
-      background: black;
-      color: white; }
-    nav .nav li ul li {
-      background: black;
-      padding-right: 0; }
-    nav .nav li ul li:first-child {
-      padding-top: 10px; }
-    nav .nav li ul a {
-      padding: 0 15px 10px 15px;
-      font-size: 15px;
-      display: inline-block;
-      line-height: 1.4em; }
-    nav .nav li ul i {
-      display: none; }
-  nav .nav .sfHover {
-    background: black; }
-  nav .nav .active a, nav .nav .active a:hover, nav .nav .active a:active, nav .nav .active a:focus {
-    background: black; }
+nav .nav li {
+  float: left;
+  padding-right: 15px; }
+  nav .nav li a {
+    color: white;
+    font-size: 18px;
+    padding: 15px 20px; }
+  nav .nav li a:hover,
+  nav .nav li a:active,
+  nav .nav li a:focus {
+    background: black;
+    color: white; }
+  nav .nav li ul li {
+    background: black;
+    padding-right: 0; }
+  nav .nav li ul li:first-child {
+    padding-top: 10px; }
+  nav .nav li ul a {
+    padding: 0 15px 10px 15px;
+    font-size: 15px;
+    display: inline-block;
+    line-height: 1.4em; }
+  nav .nav li ul i {
+    display: none; }
+nav .nav .sfHover {
+  background: black; }
+nav .nav .active a, nav .nav .active a:hover, nav .nav .active a:active, nav .nav .active a:focus {
+  background: black; }
+
+.navbar {
+  border: 0; }
 
 .sf-menu.menu ul {
   margin-top: .6em;
