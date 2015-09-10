@@ -7773,6 +7773,18 @@ a > .sf-sub-indicator, span.nolink > .sf-sub-indicator {
   display: none; }
 #mobile-nav .sf-expanded ul {
   position: relative; }
+#mobile-nav .nav ul li {
+  background: black;
+  padding-right: 0; }
+#mobile-nav .nav ul li:first-child {
+  padding-top: 10px; }
+#mobile-nav .nav ul a {
+  padding: 0 15px 10px 15px;
+  font-size: 15px;
+  display: inline-block;
+  line-height: 1.4em; }
+#mobile-nav .nav ul i {
+  display: none; }
 
 .sidebar .block-title {
   margin: 0;
