@@ -190,7 +190,7 @@ a > .sf-sub-indicator, span.nolink > .sf-sub-indicator {
 	.nav > li > a {
 		padding: 0;
 		border-bottom: 0;
-		display: inline-block; // need this so the link text displays inline with menu icon
+		display: inline; // need this so the link text displays inline with menu icon
 	}
 	.nav > li > a:hover,
 	.nav > li > a:active,

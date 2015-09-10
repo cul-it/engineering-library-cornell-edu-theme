@@ -7802,7 +7802,7 @@ a > .sf-sub-indicator, span.nolink > .sf-sub-indicator {
 .sidebar .nav > li > a {
   padding: 0;
   border-bottom: 0;
-  display: inline-block; }
+  display: inline; }
 .sidebar .nav > li > a:hover,
 .sidebar .nav > li > a:active,
 .sidebar .nav > li > a:focus {
