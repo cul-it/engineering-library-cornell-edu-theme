@@ -152,6 +152,7 @@ a > .sf-sub-indicator, span.nolink > .sf-sub-indicator {
 		ul {
 			li {
 				padding-right: 0;
+				padding-left: 2em;
 			}
 			li:first-child {
 				padding-top: 10px;
@@ -161,9 +162,13 @@ a > .sf-sub-indicator, span.nolink > .sf-sub-indicator {
 				font-size: 15px;
 				display: inline-block;
 				line-height: 1.4em;
+				border-bottom: 0;
 			}
 			i {
 				display: none;
+			}
+			.menu-parent {
+				padding-left: 1em;
 			}
 		}
 	}

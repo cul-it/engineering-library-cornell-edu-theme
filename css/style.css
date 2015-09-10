@@ -7778,16 +7778,20 @@ a > .sf-sub-indicator, span.nolink > .sf-sub-indicator {
   height: auto !important;
   padding-left: 3em; }
 #mobile-nav .nav ul li {
-  padding-right: 0; }
+  padding-right: 0;
+  padding-left: 2em; }
 #mobile-nav .nav ul li:first-child {
   padding-top: 10px; }
 #mobile-nav .nav ul a {
   padding: 0 15px 10px 15px;
   font-size: 15px;
   display: inline-block;
-  line-height: 1.4em; }
+  line-height: 1.4em;
+  border-bottom: 0; }
 #mobile-nav .nav ul i {
   display: none; }
+#mobile-nav .nav ul .menu-parent {
+  padding-left: 1em; }
 
 .sidebar .block-title {
   margin: 0;
