@@ -200,6 +200,11 @@
 
 <footer>
   <div class="container">
-    <?php print render($page['footer']); ?>
+    <div class="footer-primary">
+      <?php print render($page['footer_primary']); ?>
+    </div>
+    <div class="footer-secondary">
+      <?php print render($page['footer_secondary']); ?>
+    </div>
   </div>
 </footer>
