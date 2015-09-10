@@ -7773,7 +7773,7 @@ a > .sf-sub-indicator, span.nolink > .sf-sub-indicator {
   display: none; }
 #mobile-nav .sf-expanded ul {
   position: relative;
-  padding-bottom: 2em;
+  margin-bottom: 2em;
   width: 100%; }
 #mobile-nav .nav ul li {
   padding-right: 0;
