@@ -138,6 +138,13 @@ a > .sf-sub-indicator, span.nolink > .sf-sub-indicator {
 	.sf-accordion-toggle {
 		display: none;
 	}
+	.sf-expanded {
+		.sf-menu {
+			ul {
+				position: relative;
+			}
+		}
+	}
 }
 
 // Sidebar nav
