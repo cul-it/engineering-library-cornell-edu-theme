@@ -7779,7 +7779,7 @@ a > .sf-sub-indicator, span.nolink > .sf-sub-indicator {
   width: 100%; }
 #mobile-nav .nav ul li {
   padding-right: 0;
-  padding-left: 2em; }
+  padding-left: 30px; }
 #mobile-nav .nav ul li:first-child {
   padding-top: 10px; }
 #mobile-nav .nav ul a {
@@ -7791,7 +7791,7 @@ a > .sf-sub-indicator, span.nolink > .sf-sub-indicator {
 #mobile-nav .nav ul i {
   display: none; }
 #mobile-nav .nav ul .sf-clone-parent {
-  padding-left: 1em; }
+  padding-left: 15px; }
 
 .sidebar .block-title {
   margin: 0;
