@@ -143,6 +143,8 @@ a > .sf-sub-indicator, span.nolink > .sf-sub-indicator {
 			position: relative;
 			padding-bottom: 2em;
 			margin-top: 0;
+			height: auto !important;
+			padding-left: 3em;
 		}
 	}
 	.nav {
