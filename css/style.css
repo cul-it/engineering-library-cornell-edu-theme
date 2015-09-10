@@ -7767,6 +7767,9 @@ a > .sf-sub-indicator, span.nolink > .sf-sub-indicator {
     margin-top: 0;
     margin-bottom: 0; }
 
+#mobile-nav .sf-menu li {
+  float: none; }
+
 .sidebar .block-title {
   margin: 0;
   padding: 0 0 .5em 0;

@@ -127,6 +127,15 @@ a > .sf-sub-indicator, span.nolink > .sf-sub-indicator {
 	}
 }
 
+// Superfish mobile nav
+#mobile-nav {
+	.sf-menu {
+		li {
+			float: none;
+		}
+	}
+}
+
 // Sidebar nav
 // ------------------- //
 .sidebar {
