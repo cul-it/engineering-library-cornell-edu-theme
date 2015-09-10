@@ -7790,7 +7790,7 @@ a > .sf-sub-indicator, span.nolink > .sf-sub-indicator {
   border-bottom: 0; }
 #mobile-nav .nav ul i {
   display: none; }
-#mobile-nav .nav ul .menuparent {
+#mobile-nav .nav ul .sf-clone-parent {
   padding-left: 1em; }
 
 .sidebar .block-title {
