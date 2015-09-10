@@ -7776,7 +7776,7 @@ a > .sf-sub-indicator, span.nolink > .sf-sub-indicator {
   padding-bottom: 2em;
   margin-top: 0;
   height: auto !important;
-  padding-left: 3em; }
+  width: 100%; }
 #mobile-nav .nav ul li {
   padding-right: 0;
   padding-left: 2em; }
