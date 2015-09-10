@@ -7771,7 +7771,7 @@ a > .sf-sub-indicator, span.nolink > .sf-sub-indicator {
   float: none; }
 #mobile-nav .sf-accordion-toggle {
   display: none; }
-#mobile-nav .sf-expanded .sf-menu ul {
+#mobile-nav .sf-expanded ul {
   position: relative; }
 
 .sidebar .block-title {

@@ -139,10 +139,8 @@ a > .sf-sub-indicator, span.nolink > .sf-sub-indicator {
 		display: none;
 	}
 	.sf-expanded {
-		.sf-menu {
-			ul {
-				position: relative;
-			}
+		ul {
+			position: relative;
 		}
 	}
 }
