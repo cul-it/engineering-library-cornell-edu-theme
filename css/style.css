@@ -7772,9 +7772,9 @@ a > .sf-sub-indicator, span.nolink > .sf-sub-indicator {
 #mobile-nav .sf-accordion-toggle {
   display: none; }
 #mobile-nav .sf-expanded ul {
-  position: relative; }
+  position: relative;
+  padding-bottom: 0; }
 #mobile-nav .nav ul li {
-  background: black;
   padding-right: 0; }
 #mobile-nav .nav ul li:first-child {
   padding-top: 10px; }

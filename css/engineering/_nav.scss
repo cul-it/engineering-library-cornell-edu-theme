@@ -141,28 +141,28 @@ a > .sf-sub-indicator, span.nolink > .sf-sub-indicator {
 	.sf-expanded {
 		ul {
 			position: relative;
+			padding-bottom: 0;
 		}
 	}
 	.nav {
 		// Superfish dropdown
-			ul {
-				li {
-					background: black;
-					padding-right: 0;
-				}
-				li:first-child {
-					padding-top: 10px;
-				}
-				a {
-					padding: 0 15px 10px 15px;
-					font-size: 15px;
-					display: inline-block;
-					line-height: 1.4em;
-				}
-				i {
-					display: none;
-				}
+		ul {
+			li {
+				padding-right: 0;
 			}
+			li:first-child {
+				padding-top: 10px;
+			}
+			a {
+				padding: 0 15px 10px 15px;
+				font-size: 15px;
+				display: inline-block;
+				line-height: 1.4em;
+			}
+			i {
+				display: none;
+			}
+		}
 	}
 }
 
