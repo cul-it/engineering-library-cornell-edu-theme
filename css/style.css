@@ -7853,14 +7853,16 @@ a > .sf-sub-indicator, span.nolink > .sf-sub-indicator {
     color: #b31b1b;
     font-size: 24px; }
 
-#mobile-search form {
-  padding: 5px; }
-#mobile-search .form-group {
-  width: 80%;
-  float: left;
-  margin-bottom: 0; }
-#mobile-search .btn-search i {
-  font-size: 18px; }
+#mobile-search {
+  background: white; }
+  #mobile-search form {
+    padding: 5px; }
+  #mobile-search .form-group {
+    width: 80%;
+    float: left;
+    margin-bottom: 0; }
+  #mobile-search .btn-search i {
+    font-size: 18px; }
 
 .home-search {
   padding: 1em 0;
