@@ -7774,6 +7774,7 @@ a > .sf-sub-indicator, span.nolink > .sf-sub-indicator {
 #mobile-nav .sf-expanded ul {
   position: relative;
   margin-bottom: 2em;
+  margin-top: -2em;
   width: 100%; }
 #mobile-nav .nav ul li {
   padding-right: 0;
