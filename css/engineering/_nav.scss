@@ -134,6 +134,10 @@ a > .sf-sub-indicator, span.nolink > .sf-sub-indicator {
 			float: none;
 		}
 	}
+	// hide "Main menu" link at top of mobile menun
+	.sf-accordion-toggle {
+		display: none;
+	}
 }
 
 // Sidebar nav
