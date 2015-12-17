@@ -8007,6 +8007,8 @@ footer {
 
 .media-left {
   padding-right: 20px; }
+  .media-left img {
+    max-width: none; }
 
 .media-body div {
   font-size: 14px;
