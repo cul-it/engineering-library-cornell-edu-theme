@@ -31,3 +31,9 @@ regions[home_column3]   = 'Home column 3'
 ;;;;;;;;;;;;;;;;;;;;;
 
 stylesheets[all][] = css/style.css
+
+; ;;;;;;;;;;;;;;;;;;;;;
+; ;; Scripts
+; ;;;;;;;;;;;;;;;;;;;;;
+
+scripts[] = 'js/searchbox.js'
