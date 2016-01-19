@@ -57,6 +57,11 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
+  <link rel="apple-touch-icon" href="/sites/all/themes/engineering/img/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="/sites/all/themes/engineering/img/touch-icon-iphone.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/sites/all/themes/engineering/img/touch-icon-ipad.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/sites/all/themes/engineering/img/touch-icon-iphone-retina.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/sites/all/themes/engineering/img/touch-icon-ipad-retina.png">
   <?php print $scripts; ?>
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
