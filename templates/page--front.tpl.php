@@ -88,10 +88,6 @@
                 <span class="sr-only">Menu</span>
                 <i class="fa fa-bars"></i>
               </button>
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-search">
-                <span class="sr-only">Search</span>
-                <i class="fa fa-search"></i>
-              </button>
             </div>
             <?php if (!empty($page['global_nav'])): ?>
               <div class="collapse navbar-collapse hidden-xs" id="menu">
@@ -107,12 +103,6 @@
     <?php if (!empty($page['mobile_nav'])): ?>
       <div id="mobile-nav" class="collapse">
         <?php print render($page['mobile_nav']); ?>
-      </div>
-    <?php endif; ?>
-    
-    <?php if (!empty($page['mobile_search'])): ?>
-      <div id="mobile-search" class="collapse">
-        <?php print render($page['mobile_search']); ?>
       </div>
     <?php endif; ?>
     <div class="container">
